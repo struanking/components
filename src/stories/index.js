@@ -21,3 +21,5 @@ storiesOf('Button', module)
   });
 
 require('./tabset.story.js');
+require('./inputField.story.js');
+require('./timer.story.js');

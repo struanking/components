@@ -5,7 +5,7 @@
 // Use `.storybook/user/modify_webpack_config.js instead`.
 
 const path = require('path');
-const updateConfig = require('./user/modify_webpack_config');
+const updateConfig = require('./user/webpack_config');
 
 const config = {
   module: {
@@ -19,5 +19,5 @@ const config = {
   },
 };
 
-updateConfig(config);
+// updateConfig(config);
 module.exports = config;

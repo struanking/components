@@ -1,0 +1,36 @@
+div {
+  display: inline-block;
+  font: normal 100%/1.2 sans-serif;
+  padding: 0.75em 0.25em;
+  position: relative;
+}
+
+input {
+  display: block;
+  font-size: 100%;
+  padding: 0.25em;
+}
+
+.vanilla span {
+  color: #888;
+  margin-left: 8px;
+}
+
+.floatingMask label {
+  margin-right: 0.5em;
+}
+.floatingMask span {
+  background-color: #2b2b2b;
+  border-radius: 16px;
+  color: #EEE;
+  line-height: 1;
+  padding: 0.35em 0.8em;
+  position: absolute;
+  left: 70%;
+  top: 0;
+  transform: translate(-50%, -35%);
+  transition: opacity 0.6s;
+}
+.floatingMask input {
+  display: inline;
+}
